@@ -14,15 +14,15 @@ This guide is intended to be a point of knowledge for everyone who wants to pass
 ## Content
 
 ### Domain 1: Orchestration (25% of exam)
-- [Complete the setup of a swarm mode cluster, with managers and worker nodes](https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/)
-- [State the differences between running a container vs running a service](https://stackoverflow.com/a/43408904)
-- [Demonstrate steps to lock a swarm cluster](https://docs.docker.com/engine/swarm/swarm_manager_locking/)
-- [Extend the instructions to run individual containers into running services under swarm](https://docs.docker.com/engine/swarm/swarm-tutorial/deploy-service/)
-- [Interpret the output of "docker inspect" commands](https://docs.docker.com/engine/swarm/swarm-tutorial/inspect-service/)
-- [Convert an application deployment into a stack file using a YAML compose file with
+- [X] [Complete the setup of a swarm mode cluster, with managers and worker nodes](https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/)
+- [X] [State the differences between running a container vs running a service](https://stackoverflow.com/a/43408904)
+- [X] [Demonstrate steps to lock a swarm cluster](https://docs.docker.com/engine/swarm/swarm_manager_locking/)
+- [X] [Extend the instructions to run individual containers into running services under swarm](https://docs.docker.com/engine/swarm/swarm-tutorial/deploy-service/)
+- [X] [Interpret the output of "docker inspect" commands](https://docs.docker.com/engine/swarm/swarm-tutorial/inspect-service/)
+- [X] [Convert an application deployment into a stack file using a YAML compose file with
 "docker stack deploy"](https://docs.docker.com/engine/reference/commandline/stack_deploy/)
-- [Manipulate a running stack of services](https://docs.docker.com/engine/reference/commandline/stack_services/#related-commands)
-- [Increase number of replicas](https://docs.docker.com/engine/reference/commandline/service_scale/)
+- [X] [Manipulate a running stack of services](https://docs.docker.com/engine/reference/commandline/stack_services/#related-commands)
+- [X] [Increase number of replicas](https://docs.docker.com/engine/reference/commandline/service_scale/)
 - Add networks and published ports: [Network on Swarm](https://docs.docker.com/v17.09/engine/swarm/networking/) and [network in general with published ports](https://docs.docker.com/network/)
 - [Mount volumes](https://docs.docker.com/storage/volumes/)
 - [Illustrate running a replicated vs global service](https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/#replicated-and-global-services)
